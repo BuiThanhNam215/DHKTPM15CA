@@ -1,0 +1,17 @@
+
+.container, .Row{
+    width: 100%;
+}
+.Row::after,Row:before{
+    display: table;
+    content: "";
+}
+.Row:after{
+    clear: both;
+}
+.col1, .col2, .col3{
+    float: left;    
+    width: 25.333333%;
+    margin: 1%;
+    padding: 1%;
+}
